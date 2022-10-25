@@ -1,0 +1,363 @@
+html, body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+header, body, footer{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Aqui é o cabecalho */
+
+.container-header {
+    text-align: center;
+    position: relative;
+    color: white;
+    }
+
+.texto-saudacao {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.texto-saudacao p {
+    margin-bottom: 20px;
+}
+
+.texto-saudacao em {
+    font-style: italic;
+    font-size: 2vw;
+    text-shadow: 1px 1px black;
+  
+}
+
+.texto-saudacao strong {
+    font-weight: bolder;
+    font-size: 5vw;
+    text-shadow: 0px 1px black;
+    }
+
+.foto-filippe {
+    width: 100%;
+    height: auto;
+  
+}
+
+
+
+
+
+/* Aqui começa a MAIN */
+.intro-jornada {
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 15%;
+    margin-right: 16%;
+    line-height: 30px;
+    margin-bottom: 35px;
+}
+
+h1 {
+    font-weight: bold;
+    color: #202020;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+h1:after{
+    padding-left: 17px;
+    content: "⸻";
+}
+
+h1:before{
+    padding-right: 17px;
+    content: "⸻";
+}
+
+
+
+
+
+
+
+/* Aqui começa a SESSÃO DE JORNADAS*/
+
+.jornadas{
+    margin-top: 25px;
+   
+}
+
+.logo-alura{
+    margin-right: 20px;
+    width: 12%;
+    min-width: 50px; 
+    min-height: 50px; 
+    float: left;
+    border-radius: 15px;
+}
+
+.formatacao-jornadas {
+    text-align: left;
+    margin-bottom: 21px;
+    margin-left: 25%;
+    margin-right: 26%;
+}
+
+h2{
+    font-family: 'Reem Kufi Ink', sans-serif;
+    font-weight: bold;
+    color: #202020;
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+
+.formatacao-jornadas p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: thin;
+    color:  #505050;
+    font-size: 14px;
+    margin-bottom: 5px;
+    line-height: 25px;
+}
+
+span em{
+    font-style: italic;
+    color: #3CB371
+}
+
+.formatacao-jornadas strong{
+    font-weight: bold;
+}
+
+.segunda-jornada{
+    margin-top: 60px;
+}
+
+.logo-gfb{
+    margin-top: 10px;
+    margin-right: 20px;
+    width: 12%;
+    min-width: 50px; 
+    min-height: 50px; 
+    float: left;
+    border-radius: 15px;
+}
+
+.terceira-jornada{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.logo-freelance{
+    margin-right: 20px;
+    width: 12%;
+    min-width: 50px; 
+    min-height: 50px; 
+    float: left;
+    border-radius: 15px;
+}
+
+/* Aqui começa a SESSÃO DE ESTUDOS */
+
+.estudos{
+    margin: 40px 0 50px 0;
+    text-align: left;
+    padding: 75px 15% 60px 15%;
+    color: #fdfafa;
+    background-image: linear-gradient(180deg, rgb(65, 16, 2), rgb(112, 35, 13),  rgb(172, 55, 23));
+
+}
+
+.estudos h1{
+    text-align: center;
+    color: #fdfafa;
+ }
+
+ .estudos p{
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 50;
+    line-height: 1.7;
+    font-size: 22px;
+ }
+
+ .botao{
+    margin: 25px 0 15px 10%;
+
+ }
+ .botao-youtube{
+    text-transform: uppercase;
+    padding: 13px 35px 13px 35px;
+    color: aliceblue;
+    background-color: rgb(41, 37, 37);
+    border-color: transparent;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+     }
+
+.img-coding{
+    float: right;
+    margin: 15px 0 30px 70px;
+    width: 40%;
+    height: 40%;
+    max-height: 300px;
+    max-width: 300px;    
+}
+
+/* Aqui começa a SESSÃO DE BOXES*/
+
+.boxes{
+    margin: 90px 15% 90px 15%;
+    text-align: center;
+}
+
+.lista-boxes{
+    margin-top: 50px;
+    column-count:3;
+
+}
+
+.itens-boxes{
+    padding: 10px 15px 10px 15px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #41404046;
+    margin-bottom: 25px;
+}
+
+.itens-boxes p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: thin;
+    color:  #505050;
+    font-size: 14px;
+    margin-bottom: 15px;
+    line-height: 20px;
+    text-align: left;
+    
+}
+
+h4{
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+
+/* Aqui começa a SESSÃO DE IDEAIS*/
+.aprendizados{
+    
+    text-align: center;
+    padding-top: 65px;
+    background-image: linear-gradient(180deg, rgb(4, 62, 78), rgb(2, 88, 112),  rgb(9, 167, 211));
+    color: #fdfafa;
+}
+
+.aprendizados h1{
+        font-weight: bold;
+        color: #fdfafa;
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+
+.aprendizados p{
+    color: #fdfafa;
+}
+
+.lista-aprendizados{
+    font-family: 'Oswald', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 65px;
+    display: inline-block;
+    font-size: 20px;
+
+}
+
+.itens-aprendizados{
+    text-shadow: 1px 1px#202020;
+    line-height: 2.5;
+    letter-spacing: -1px;
+    word-spacing: 5px;
+    transition: 1s;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.itens-aprendizados:hover{
+    scale: 1.1;
+}
+
+
+
+
+/* Aqui é o Footer */
+
+.texto-rodape {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.texto-rodape p {
+    padding: 3px;
+    margin-bottom: 15px;
+    font-size: 1vw;
+    color: #708090;
+}
+
+.texto-rodape p br{
+    margin-bottom: 11px;
+}
+
+.texto-rodape p strong{
+    font-weight: bolder;
+    font-size: 2vw;
+    color: #2f363b;
+}
+
+.texto-rodape p strong br{
+    margin-bottom: 15px;
+}
+
+/* Aqui são as 3 imagens em linha */
+
+.ancoras-rodape{
+    margin-top: 30px;
+    text-align: center;
+ 
+}
+
+.ancoras-rodape li{
+    display: inline;
+    text-align: center;
+    margin: 0 0 0 2%; 
+}
+
+.ancoras-rodape li img{
+    max-width: 5%;
+    max-height: 5%;
+    margin-bottom: 80px;
+    transition: 1s;
+}
+
+.logo-insta:hover {
+    scale: 1.2;
+}
+
+.logo-linkedin:hover {
+    scale: 1.2;
+}
+
+.logo-youtube:hover {
+    scale: 1.2;
+}
+
+.logo-youtube:active {
+    transition: 500ms;
+    scale: 1.3;
+}
